@@ -1,6 +1,6 @@
 # University project - MERN stack
 
-### Simple web app created using 
+### Simple web app created using:
 - ReactJS
 - MongoDB
 - Express.js 
