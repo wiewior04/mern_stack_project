@@ -8,10 +8,10 @@ export default function RegisterPage() {
         fetch('http://localhost:4000/register', {
             method: 'POST',
             body: JSON.stringify({username,password}),
-            headers: {'Content type':'application/json'}
-        })
+            headers: {'Content-Type':'application/json'}
+        });
     }
-    return(
+    return (
         <form className="register" onSubmit={register}>
             <h1>Register</h1>
             <input type="text"
