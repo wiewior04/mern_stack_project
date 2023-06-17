@@ -1,10 +1,10 @@
 # University project - MERN stack
 
 ### Simple web app created using:
-- ReactJS
-- MongoDB
-- Express.js 
-- Node.js
+- ReactJS - https://react.dev/
+- MongoDB - https://www.mongodb.com/
+- ExpressJS - https://expressjs.com/
+- Node.js - https://nodejs.org/en
 
 ### How to run 
 1. Clone the repo
