@@ -1,5 +1,7 @@
 # University project - MERN stack
 
+![MERN Project](https://miro.medium.com/v2/resize:fit:1400/0*GKIyAWHbKbANm7d9.png)
+
 ### Simple web app created using:
 - ReactJS - https://react.dev/
 - MongoDB - https://www.mongodb.com/
