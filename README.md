@@ -3,6 +3,7 @@
 ### Simple web app created using:
 - ReactJS - https://react.dev/
 - MongoDB - https://www.mongodb.com/
+- MongooseJS - for connecting to MongoDB - https://mongoosejs.com/
 - ExpressJS - https://expressjs.com/
 - Node.js - https://nodejs.org/en
 
