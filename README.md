@@ -8,7 +8,7 @@
 - MongooseJS - for connecting to MongoDB - https://mongoosejs.com/
 - ExpressJS - https://expressjs.com/
 - Node.js - https://nodejs.org/en
-- bcryptjs - password encryption
+- bcryptjs - password encryption - https://www.npmjs.com/package/bcryptjs
 - cookieparser - https://www.npmjs.com/package/cookie-parser
 - jsonwebtoken - https://jwt.io/
 
