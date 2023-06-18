@@ -16,3 +16,10 @@
 3. execute command 'yarn start', web app will be then avaiable on http://localhost:3000/
 4. go into mern_stack_project/api
 5. execute command 'nodemon index.js', Node.js app will be running trough Nodemon tool. Available on http://localhost:4000/
+
+### TBD list 
+- Create post page
+- Modify post page
+- Displaying posts from the database, not static posts from HTML
+- Contenerize the app through creating dockerfile 
+- try to put the dockerfile on running AWS EC2 instance
