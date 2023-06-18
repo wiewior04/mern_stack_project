@@ -12,5 +12,7 @@
 
 ### How to run 
 1. Clone the repo
-2. go into the client directory
-3. execute command 'yarn start'
+2. Go into mern_stack_project/client directory
+3. execute command 'yarn start', web app will be then avaiable on http://localhost:3000/
+4. go into mern_stack_project/api
+5. execute command 'nodemon index.js', Node.js app will be running trough Nodemon tool. Available on http://localhost:4000/
