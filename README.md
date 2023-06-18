@@ -8,6 +8,7 @@
 - MongooseJS - for connecting to MongoDB - https://mongoosejs.com/
 - ExpressJS - https://expressjs.com/
 - Node.js - https://nodejs.org/en
+- bcryptjs - password encryption
 
 ### How to run 
 1. Clone the repo
