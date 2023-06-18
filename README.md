@@ -9,6 +9,8 @@
 - ExpressJS - https://expressjs.com/
 - Node.js - https://nodejs.org/en
 - bcryptjs - password encryption
+- cookieparser - https://www.npmjs.com/package/cookie-parser
+- jsonwebtoken - https://jwt.io/
 
 ### How to run 
 1. Clone the repo
