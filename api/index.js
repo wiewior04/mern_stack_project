@@ -5,7 +5,7 @@ const User = require('./models/User');
 const app = express();
 const bcrypt = require('bcryptjs');
 
-const salt = 'sagsdaogawj253154';
+const salt = bcrypt.genSaltSync(10);
 
 app.use(cors());
 app.use(express.json());
