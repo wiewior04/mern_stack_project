@@ -20,7 +20,8 @@
 5. execute command 'nodemon index.js', Node.js app will be running trough Nodemon tool. Available on http://localhost:4000/
 
 ### TBD list 
-- Create post page
+- ~~Create post page~~ - done
+- ~~Sending posts to MondoDB~~ - done
 - Modify post page
 - Displaying posts from the database, not static posts from HTML
 - Contenerize the app through creating dockerfile (https://www.knowledgehut.com/blog/web-development/how-to-dockerize-react-app)
