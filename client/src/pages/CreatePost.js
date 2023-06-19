@@ -8,18 +8,19 @@ export default function CreatePost(){
     const [content, setContent] = useState('');
     const [files, setFiles] = useState('');
 
-    function createNewPost() {
+    async function createNewPost(ev) {
         const data = new FormData();
         data.set('title',title);
         data.set('summary',summary);
         data.set('content',content);
-        //data.set('file',file);
+        data.set('file',files[0]);
         ev.preventDefault();
-        console.log(files);
-        // fetch('http://localhost:4000/post', {
-        //    method:'POST',
-        //    body:''
-        //});
+        const response = await fetch('http://localhost:4000/post', {
+            method:'POST',
+            body:data,
+            credentials: 'include',
+        });
+        console.log(await response.json());
     }
     const modules = {
         toolbar: [
@@ -49,8 +50,7 @@ export default function CreatePost(){
                 value={summary}
                 onChange={ev => setSummary(ev.target.value)} />
             <input type="file"
-                value={files} 
-                onChange={ev => setFile(ev.target.files)} />
+                onChange={ev => setFiles(ev.target.files)} />
             <ReactQuill value={content}
                 onChange={newValue => setContent(newValue)}
                 modules={modules}
