@@ -23,5 +23,5 @@
 - Create post page
 - Modify post page
 - Displaying posts from the database, not static posts from HTML
-- Contenerize the app through creating dockerfile 
-- try to put the dockerfile on running AWS EC2 instance
+- Contenerize the app through creating dockerfile (https://www.knowledgehut.com/blog/web-development/how-to-dockerize-react-app)
+- Try to put the dockerfile on running AWS ECS instance
