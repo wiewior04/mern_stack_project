@@ -25,4 +25,4 @@
 - Modify post page
 - Displaying posts from the database, not static posts from HTML
 - Contenerize the app through creating dockerfile (https://www.knowledgehut.com/blog/web-development/how-to-dockerize-react-app)
-- Try to put the dockerfile on running AWS ECS instance
+- Try to put the dockerfile on running AWS Amplify instance that deploys web apps (might have some problems with saving image files functionality during "create new post" process :/ )
