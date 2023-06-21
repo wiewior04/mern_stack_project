@@ -1,5 +1,5 @@
 import './App.css';
-import Post from "./Post";
+import Post from './Post';
 import Header from "./Header";
 import {Route, Routes} from "react-router-dom";
 import Layout from "./Layout";
@@ -9,6 +9,7 @@ import RegisterPage from './pages/RegisterPage.js';
 import {UserContextProvider, UserContext} from './UserContext';
 import CreatePost from './pages/CreatePost';
 import PostPage from './pages/PostPage';
+import EditPost from './pages/EditPost';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path={'/register'} element={<RegisterPage />} />
         <Route path={'/create'} element={<CreatePost />} />
         <Route path={'/post/:id'} element={<PostPage />} />
+        <Route path={'/edit/:id'} element={<EditPost />} />
         </Route>
       </Routes>
     </UserContextProvider>
