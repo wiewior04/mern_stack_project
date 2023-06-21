@@ -1,6 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
+/api/node_modules
 /node_modules
 /.pnp
 .pnp.js
@@ -21,3 +22,53 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+client/node_modules/.cache/.eslintcache
+client/node_modules/.cache/babel-loader/5d6a55f823577c5e56f7a4910e59258feb8fc3c66249902fafe26180210a4a45.json
+client/node_modules/.cache/babel-loader/79f9d212809233a45e17674033a71895bdf7bf434debd6a98953918c45889f17.json
+client/node_modules/.cache/babel-loader/201dbeb887d493d133aaa610aa94b6300a873bedf8ffe561e52a002b7023d273.json
+client/node_modules/.cache/babel-loader/f0e9d3d9a3b17dd558ba3ef7495e2c763c4e54bdccb8dc7bfda4a00da0cfb522.json
+client/node_modules/.cache/default-development/0.pack
+client/node_modules/.cache/default-development/4.pack
+client/node_modules/.cache/default-development/5.pack
+client/node_modules/.cache/default-development/7.pack
+client/node_modules/.cache/default-development/8.pack
+client/node_modules/.cache/default-development/11.pack
+client/node_modules/.cache/default-development/12.pack
+client/node_modules/.cache/default-development/index.pack
+client/node_modules/.cache/default-development/index.pack 5.pack
+client/node_modules/.cache/default-development/index.pack 6.pack
+client/node_modules/.cache/default-development/index.pack.old
+client/node_modules/.cache/default-development/index.pack.pack
+client/node_modules/.cache/.eslintcache
+client/node_modules/.cache/babel-loader/5ff9f6ef19d8739cd8d17b36092feb109c355d72347847ad9296ce661cb8c949.json
+client/node_modules/.cache/babel-loader/06a2207310202707637bfd6670f540a5529d504d61272d23b2711c43df1c6a01.json
+client/node_modules/.cache/babel-loader/8c1455356e25f2bd35efa6ef1635d78296ed6b56b3ffac3773683ce79c44ca17.json
+client/node_modules/.cache/babel-loader/fd69beb3a73ef846136b3ee3c023b4fa730651f3c886015bec4edc0497566aac.json
+client/node_modules/.cache/default-development/0.pack
+client/node_modules/.cache/default-development/4.pack
+client/node_modules/.cache/default-development/5.pack
+client/node_modules/.cache/default-development/7.pack
+client/node_modules/.cache/default-development/8.pack
+client/node_modules/.cache/default-development/11.pack
+client/node_modules/.cache/default-development/12.pack
+client/node_modules/.cache/default-development/index.pack
+client/node_modules/.cache/default-development/index.pack.old
+client/node_modules/.cache/default-development/index.pack.pack
+api/node_modules/.yarn-integrity
+api/uploads/8c2a0b07ac5940e599ad9a679e601875.webp
+api/uploads/39bdee43a11bfcc9c77a19af8e9b2ea6.webp
+api/uploads/cc41ba1433ba8348ee3078a802f68dbe.webp
+api/uploads/da70762784ce42517ed4a18156c0e0ae.webp
+api/uploads/e933b925092b0906fcefe81584e63092.webp
+client/node_modules/.cache/.eslintcache
+client/node_modules/.cache/default-development/0.pack
+client/node_modules/.cache/default-development/4.pack
+client/node_modules/.cache/default-development/5.pack
+client/node_modules/.cache/default-development/7.pack
+client/node_modules/.cache/default-development/8.pack
+client/node_modules/.cache/default-development/11.pack
+client/node_modules/.cache/default-development/12.pack
+client/node_modules/.cache/default-development/13.pack
+client/node_modules/.cache/default-development/index.pack
+client/node_modules/.cache/default-development/index.pack.old
+client/node_modules/.cache/default-development/index.pack.pack
