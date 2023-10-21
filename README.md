@@ -1,4 +1,4 @@
-# University project - MERN stack
+# Project - MERN stack
 
 ![MERN Project](https://miro.medium.com/v2/resize:fit:1400/0*GKIyAWHbKbANm7d9.png)
 
